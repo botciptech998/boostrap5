@@ -30,6 +30,18 @@
             background-image: url('images/banner3.jpg'); 
         }
 
+        .evento-4 {
+            background-image: url('images/banner4.jpg'); 
+        }
+
+        .evento-5 {
+            background-image: url('images/banner5.jpg'); 
+        }
+
+        .evento-6 {
+            background-image: url('images/banner6.jpg'); 
+        }
+
         /* ESTILOS DE LAS CARDS */
         .card {
             background-color: #212529; 
