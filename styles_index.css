@@ -1,0 +1,47 @@
+  /* ESTILOS GLOBALES Y NAVBAR */
+        body {
+            background-image: url(images/background.jpg);
+            background-color: #121212;
+            background-size: cover;
+            background-position: center center; 
+            background-attachment: fixed;
+            color: #f8f9fa; 
+            padding-top: 70px; /* Compensación para navbar fijo */
+        }
+        .navbar {
+            background-color: #000000 !important; 
+        }
+        
+        /* CARRUSEL HERO BANNER (Solo Imagen de Fondo) */
+        .hero-slide {
+            height: 450px; /* Altura del carrusel */
+            background-size: cover;
+            background-position: center;
+            /* Asegura que no haya texto que mostrar */
+        }
+        /* Definición de las imágenes de fondo (Asegúrate que las rutas sean correctas) */
+        .cadillacs {
+            background-image: url('images/banner1.jpg'); 
+        }
+        .evento-2 {
+            background-image: url('images/banner2.jpg'); 
+        }
+        .evento-3 {
+            background-image: url('images/banner3.jpg'); 
+        }
+
+        /* ESTILOS DE LAS CARDS */
+        .card {
+            background-color: #212529; 
+            color: #f8f9fa;
+            border: none;
+        }
+        .card-img-top {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .fecha-evento {
+            font-weight: bold;
+            color: #007bff;
+        }

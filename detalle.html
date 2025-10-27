@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Evento - Inscripción</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles_detalle.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="index.html">CIPTECH EVENTOS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">ACERCA DE</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">EVENTOS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">CONTACTO</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container detalle-container">
+        
+        <h1 class="text-center mb-4">Torneo eFootball 2025</h1>
+        
+        <img src="images/efootball.jpg.jpg" class="imagen-portada" alt="Imagen de portada del evento">
+
+        <section class="descripcion-evento">
+            <h2 class="mb-3">Descripción General</h2>
+            <p class="lead">
+                ¡Prepárate para la batalla! El Torneo eFootball 2025 es el evento más esperado
+                para todos los aficionados a los videojuegos de fútbol dentro de CIPTECH.
+            </p>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <p><strong>Categoría:</strong> COMPETENCIA</p>
+                    <p><strong>Fecha:</strong> 15 de noviembre de 2025</p>
+                </div>
+                <div class="col-md-6">
+                    <p><strong>Horario:</strong> 18:00 hrs.</p>
+                    <p><strong>Ubicación:</strong> Comedor 3er Piso</p>
+                </div>
+            </div>
+        </section>
+        
+        <hr class="text-secondary">
+
+        <div id="mensaje-exito" class="alert alert-success text-center hidden" role="alert">
+            ¡Inscripción completada con éxito! Revisa tu correo para los detalles. 🎉
+        </div>
+
+        <div class="form-container">
+            <h2 class="mb-4 text-center">Formulario de Inscripción</h2>
+
+            <form id="registrationForm" action="" method="GET"> 
+                
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="apellidos" class="form-label">Apellidos</label>
+                        <input type="text" class="form-control" id="apellidos" name="apellidos" required>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="codigo_trabajador" class="form-label">Código Trabajador</label>
+                        <input type="text" class="form-control" id="codigo_trabajador" name="codigo_trabajador" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="area" class="form-label">Área</label>
+                        <input type="text" class="form-control" id="area" name="area" required>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <label for="correo" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="correo" name="correo" required>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100 py-2">
+                    Inscribirse
+                </button>
+            </form>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

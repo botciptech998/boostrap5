@@ -1,0 +1,52 @@
+       /* ESTILOS DE VISIBILIDAD PARA EL JS */
+        .hidden {
+            display: none !important;
+        }
+       /* ESTILOS GLOBALES Y NAVBAR */
+        body {
+            /* Ruta a la imagen de fondo (ACTUALIZAR) */
+            background-image: url('images/background.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            background-color: #121212; 
+            color: #f8f9fa; 
+            padding-top: 70px; /* Compensación para navbar fijo */
+        }
+        .navbar {
+            background-color: #000000 !important; 
+        }
+        
+        /* ESTILOS DE LA PÁGINA DE DETALLE */
+        .detalle-container {
+            margin-top: 20px;
+        }
+        
+        /* Estilo de la imagen principal del evento */
+        .imagen-portada {
+            width: 100%;
+            height: 400px; /* Altura fija para el banner de detalle */
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        /* Estilo para la sección de descripción */
+        .descripcion-evento {
+            background-color: #212529;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        
+        /* Estilos del contenedor del formulario */
+        .form-container {
+            background-color: #212529;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
